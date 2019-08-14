@@ -170,7 +170,7 @@ ul {
 
 .pt-active {
     margin-top: -31px;
-    background-color: #374963 !important;
+    background-color: #0E876F !important;
     box-shadow: 6.5px 11.258px 13px 0px rgba(1, 1, 1, 0.098);
 }
 
@@ -180,7 +180,7 @@ ul {
 
 .price {
     font-size: 36px;
-    color: #15be64;
+    color: #41EDBD;
     font-weight: bold;
 }
 
@@ -191,7 +191,7 @@ ul {
 }
 
 .paymentStatus {
-    color: #374963;
+    color: #0E876F;
     font-size: 18px;
     margin-top: 45px;
     display: block;
@@ -214,7 +214,7 @@ ul {
     text-align: center;
     display: none;
     border-radius: 22px;
-    background-color: #15be64 !important;
+    background-color: #41EDBD !important;
     border: none;
     padding: 12px !important;
     width: 173px !important;
@@ -473,11 +473,11 @@ h6 {
 
 .subscribe-textbox {
     height: 45px;
-    background-color: #374963;
+    background-color: #34c89f;
     border: none;
     border-bottom: 2px solid #4A596F;
     width: 90%;
-    color: #8b9bb2;
+    color: #F3FFF9;
     font-size: 20px;
     outline: 0;
     font-weight: 200;
@@ -485,11 +485,14 @@ h6 {
     -moz-transition:border-bottom-color 1s;
     -o-transition:border-bottom-color 1s;
     transition: border-bottom-color 1s;
+    padding: 0 4px;
 }
 .subscribe-textbox:active,.subscribe-textbox:focus{
-    border-bottom-color:#8b9bb2;
+    border-bottom-color:#F3FFF9;
 }
-
+.subscribe-textbox::placeholder{
+    color:#F3FFF9;
+}
 .nova-contacts-information {
     height: 195px;
     background-color: #425570;
@@ -515,15 +518,15 @@ h6 {
 }
 
     .nova-contacts-information p.light-color {
-        color: #afbccf;
+        color: #F3FFF9;
     }
 
 .social-icons {
     width: 45px;
     height: 45px;
-    border: 1px solid #8b9bb2;
+    border: 1px solid #F3FFF9;
     text-align: center;
-    color: #8b9bb2;
+    color: #F3FFF9;
 }
 
     .social-icons i {
@@ -559,7 +562,7 @@ h6 {
     }
 
 .copyright-text {
-    color: #afbccf;
+    color: #F3FFF9;
     font-weight: 100;
 }
 
