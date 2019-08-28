@@ -55,9 +55,9 @@ $(window).on('load', function(){
 	$( function() {
 		$.vegas('slideshow', {
 			backgrounds:[
-				{ src:'http://placehold.it/1920x1080', fade:1500 },
-				{ src:'http://placehold.it/1920x1080', fade:1500 },
-				{ src:'http://placehold.it/1920x1080', fade:1500 }
+				{ src:'./images/blur_background.jpg', fade:1500 },
+				{ src:'./images/blur_background.jpg', fade:1500 },
+				{ src:'./images/blur_background.jpg', fade:1500 }
 			],
 			loading:false
 		})
