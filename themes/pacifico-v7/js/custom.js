@@ -54,9 +54,10 @@ $(window).on('load', function(){
 	
 	$( function() {
 		$.vegas('slideshow', {
+			delay: 25000,
 			backgrounds:[
-				{ src:'./images/blur_background.jpg', fade:15000 },
-				{ src:'./images/blur_background2.jpg', fade:15000 }
+				{ src:'./images/blur_background.jpg', fade:5000 },
+				{ src:'./images/blur_background2.jpg', fade:5000 }
 			],
 			loading:false
 		});
