@@ -55,12 +55,11 @@ $(window).on('load', function(){
 	$( function() {
 		$.vegas('slideshow', {
 			backgrounds:[
-				{ src:'./images/blur_background.jpg', fade:1500 },
-				{ src:'./images/blur_background.jpg', fade:1500 },
-				{ src:'./images/blur_background.jpg', fade:1500 }
+				{ src:'./images/blur_background.jpg', fade:3000 },
+				{ src:'./images/blur_background2.jpg', fade:3000 }
 			],
 			loading:false
-		})
+		});
 	});
  
 	
